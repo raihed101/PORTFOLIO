@@ -1,0 +1,290 @@
+html,
+body {
+  font-family: "Monument Extended";
+  /* background-image: linear-gradient(to right, #868f96 0%, #596164 100%); */
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 120%
+      )
+      #989898;
+  background-blend-mode: multiply, multiply;
+  background-repeat: no-repeat;
+}
+
+body {
+}
+#doughnut,
+#doughnut2,
+#doughnut3,
+#doughnut4 {
+  position: absolute;
+}
+#skill1,
+#skill2,
+#skill3,
+#skill4 {
+  position: relative;
+}
+.container {
+  color: white;
+}
+
+/* navbar */
+
+hr {
+  background-color: white;
+}
+
+.navbar {
+  background-color: transparent;
+  background-color: #7b8898;
+  position: fixed;
+  width: 100%;
+  z-index: 8;
+}
+
+.navbar-brand {
+  padding: 60px;
+  color: white !important;
+  display: inline;
+}
+
+.nav-item {
+  color: white !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.mainHeader {
+  padding-top: 300px;
+  font-size: 6rem;
+}
+
+/* about section */
+
+.aboutSection {
+  padding-top: 250px;
+}
+
+.aboutText {
+  font-family: "Quatro";
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.rounded-circle {
+  background-color: rgb(102, 102, 102);
+  width: 50%;
+  height: 50%;
+}
+
+/* skillssec */
+/* 
+.skillCircle {
+  font-family: "Quatro";
+  font-size: 1.8rem;
+  font-weight: 550;
+  letter-spacing: 1px;
+}
+.skillCircle2 {
+  font-family: "Quatro";
+  font-size: 1.1rem;
+  font-weight: 550;
+  letter-spacing: 1px;
+}
+
+
+.progress {
+  width: 150px;
+  height: 150px;
+  background: none;
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+}
+
+.progress::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 6px solid white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.progress > span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.progress .progress-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 6px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+} */
+
+.projectSec {
+  padding-top: 200px;
+  font-size: 6rem;
+}
+
+.conWidth {
+  padding-top: 150px;
+  width: 50%;
+}
+
+.btn1 {
+  padding-top: 100px;
+  font-family: "Quatro";
+  color: rgb(102, 102, 102);
+  border-radius: 24px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 16px;
+}
+
+.btn-lg {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: rgb(77, 77, 77);
+  border-color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: rgb(102, 102, 102);
+  border-color: rgb(102, 102, 102);
+}
+.round {
+  border-radius: 24px;
+}
+
+.btn {
+  padding: 14px 24px;
+  border: 0 none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+  outline: 0 none;
+}
+
+.btn-primary {
+  /* background: ; */
+  color: #ffffff;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background: rgb(102, 102, 102);
+}
+.btn-primary:active,
+.btn-primary.active {
+  background: rgb(102, 102, 102);
+  box-shadow: none;
+}
+
+.btn2 {
+  font-weight: 100;
+}
+
+/* project */
+
+.row {
+  padding-top: 40px;
+}
+
+.featurette-heading {
+  font-family: "Monument Extended";
+  padding-top: 150px;
+}
+
+.featurette-text {
+  font-family: "Quatro";
+}
+
+/* footer */
+
+.icons {
+  padding-top: 40px;
+  font-size: 2rem;
+}
+
+i {
+  color: white;
+  padding-bottom: 40px;
+}
+
+i:hover {
+  color: rgb(77, 77, 77);
+}
+
+footer h6 {
+  font-size: 14px;
+  font-family: "Quatro";
+}
+
+#contact {
+  padding-top: 300px;
+  font-size: 1.5rem;
+}
+
+.showcase {
+  padding-top: 200px;
+  border: none;
+}
+
+.showcase h1 {
+  font-size: 1.5rem;
+}
