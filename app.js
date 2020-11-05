@@ -25,11 +25,12 @@
      viewFactor:0.2
  });
  
- sr.reveal(".contact", {
-     duration: 2000,
-     origin: 'left',
-     origin:"bottom"
- });
+//  sr.reveal("#contact", {
+//      duration: 2000,
+//      origin: 'left',
+//      origin:"bottom"
+     
+//  });
  
  sr.reveal(".projectSec", {
      duration: 2000,
