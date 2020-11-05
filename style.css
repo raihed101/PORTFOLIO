@@ -1,19 +1,17 @@
 @font-face {
-    font-family: 'monument_extendedregular';
-    src: url('monumentextended-regular-webfont.woff2') format('woff2'),
-         url('monumentextended-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: "monument_extendedregular";
+  src: url("monumentextended-regular-webfont.woff2") format("woff2"),
+    url("monumentextended-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'monument_extendedultrabold';
-    src: url('monumentextended-ultrabold-webfont.woff2') format('woff2'),
-         url('monumentextended-ultrabold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: "monument_extendedultrabold";
+  src: url("monumentextended-ultrabold-webfont.woff2") format("woff2"),
+    url("monumentextended-ultrabold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 html,
@@ -59,11 +57,16 @@ hr {
   background-color: white;
 }
 
+.logo {
+  font-size: 25px;
+  color: white;
+  padding-right: 160px;
+}
+
 .navbar {
   background-color: transparent;
   background-color: #7b8898;
   position: fixed;
-  width: 100%;
   z-index: 8;
 }
 
@@ -161,7 +164,7 @@ hr {
 
 .projectSec {
   padding-top: 200px;
-  font-size: 6rem;
+  font-size: 500px;
 }
 
 .conWidth {
@@ -305,4 +308,25 @@ footer h6 {
 
 .showcase h1 {
   font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .projectSec {
+    font-size: 4rem;
+  }
+  .mainHeader {
+    font-size: 6rem;
+  }
+}
+@media only screen and (min-width: 375px) {
+  img {
+    padding-top: 20px;
+  }
+  .projectSec {
+    font-size: 3rem;
+  }
+  .mainHeader {
+    font-size: 4rem;
+    padding-top: 400px;
+  }
 }
