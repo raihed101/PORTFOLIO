@@ -311,9 +311,6 @@ footer h6 {
 }
 
 @media only screen and (max-width: 1024px) {
-  .projectSec {
-    font-size: 4rem;
-  }
   .mainHeader {
     font-size: 6rem;
   }
