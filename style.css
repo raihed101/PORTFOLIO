@@ -60,7 +60,7 @@ hr {
 .logo {
   font-size: 25px;
   color: white;
-  padding-right: 160px;
+  /* padding-right: 160px; */
 }
 
 .navbar {
@@ -88,6 +88,7 @@ hr {
 .mainHeader {
   padding-top: 200px;
   font-size: 6rem;
+  font-family: "Monument Extended";
 }
 
 /* about section */
@@ -311,23 +312,28 @@ footer h6 {
   font-size: 1.5rem;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) {
+  .logo {
+    padding-right: 160px;
+  }
   .mainHeader {
     font-size: 6rem;
   }
 }
 @media only screen and (max-width: 375px) {
+  html,
+  body {
+    min-width: 100%;
+    overflow-x: hidden;
+  }
   img {
     padding-top: 20px;
   }
   .projectSec {
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
   .mainHeader {
     font-size: 4rem;
     padding-top: 200px;
-  }
-  .navbar {
-    position: sticky;
   }
 }
