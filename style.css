@@ -1,24 +1,26 @@
-/* @font-face {
+@font-face {
   font-family: "monument_extendedregular";
-  src: url("MonumentExtended-FreeForPersonalUse 2/monumentextended-regular-webfont.woff2")
-      format("woff2"),
-    url("MonumentExtended-FreeForPersonalUse 2/monumentextended-regular-webfont.woff")
-      format("woff");
+  src: url("./fonts/MonumentExtended-Regular.otf");
   font-weight: normal;
   font-style: normal;
-} */
+}
 
 /* @font-face {
   font-family: "monument_extendedultrabold";
-  src: url("monumentextended-ultrabold-webfont.woff2") format("woff2"),
-    url("monumentextended-ultrabold-webfont.woff") format("woff");
+  src: url("./fonts/MonumentExtended-Regular.otf") format("woff2");
+
   font-weight: normal;
   font-style: normal;
 } */
 
+@font-face {
+  font-family: "QuatroR";
+  src: url("./fonts/Quarto\ Regular.ttf");
+}
+
 html,
 body {
-  font-family: "Monument Extended";
+  font-family: "monument_extendedregular";
   /* background-image: linear-gradient(to right, #868f96 0%, #596164 100%); */
   background: linear-gradient(
       to bottom,
@@ -95,7 +97,7 @@ hr {
 .mainHeader {
   padding-top: 200px;
   font-size: 6rem;
-  font-family: "Monument Extended";
+  font-family: "monument_extendedregular";
 }
 
 /* about section */
@@ -105,9 +107,9 @@ hr {
 }
 
 .aboutText {
-  font-family: "Quatro";
+  font-family: "QuatroR";
   font-size: 1.5rem;
-  font-weight: 200;
+  font-weight: 100;
 }
 
 .rounded-circle {
@@ -194,7 +196,7 @@ hr {
 
 .btn1 {
   padding-top: 100px;
-  font-family: "Quatro";
+  font-family: "QuatroR";
   color: rgb(102, 102, 102);
   border-radius: 24px;
 }
@@ -288,12 +290,12 @@ hr {
 }
 
 .featurette-heading {
-  font-family: "Monument Extended";
+  font-family: "monument_extendedregular";
   padding-top: 150px;
 }
 
 .featurette-text {
-  font-family: "Quatro";
+  font-family: "QuatroR";
 }
 
 /* footer */
@@ -314,7 +316,7 @@ i:hover {
 
 footer h6 {
   font-size: 14px;
-  font-family: "Quatro";
+  font-family: "QuatroR";
 }
 
 #contact {
