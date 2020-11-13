@@ -5,14 +5,6 @@
   font-style: normal;
 }
 
-/* @font-face {
-  font-family: "monument_extendedultrabold";
-  src: url("./fonts/MonumentExtended-Regular.otf") format("woff2");
-
-  font-weight: normal;
-  font-style: normal;
-} */
-
 @font-face {
   font-family: "QuatroR";
   src: url("./fonts/Quarto\ Regular.ttf");
@@ -22,7 +14,7 @@ html,
 body {
   font-family: "monument_extendedregular";
   /* background-image: linear-gradient(to right, #868f96 0%, #596164 100%); */
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0.15) 0%,
       rgba(0, 0, 0, 0.15) 100%
@@ -32,25 +24,12 @@ body {
         rgba(255, 255, 255, 0.4) 0%,
         rgba(0, 0, 0, 0.4) 120%
       )
-      #989898;
+      #989898; */
+  background-color: #2e3238;
   background-blend-mode: multiply, multiply;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
-
-/* body {
-}
-#doughnut,
-#doughnut2,
-#doughnut3,
-#doughnut4 {
-  position: absolute;
-}
-#skill1,
-#skill2,
-#skill3,
-#skill4 {
-  position: relative;
-} */
 
 .btn4 {
   padding-top: 90px;
@@ -346,27 +325,11 @@ footer h6 {
   padding-left: 15px;
 }
 
-/* .progress.blue .progress-bar {
-  border-color: #049dff;
-}
-.progress.blue .progress-value {
-  color: #049dff;
-} */
-.progress.blue .progress-left .progress-bar {
-  animation: loading-2 1.5s linear forwards 1.8s;
-}
-.progress.yellow .progress-bar {
-  border-color: white;
-}
-.progress.yellow .progress-value {
-  color: white;
-}
-.progress.yellow .progress-left .progress-bar {
-  animation: loading-3 1s linear forwards 1.8s;
-}
-
-.progress.green .progress-left .progress-bar {
-  animation: loading-5 1.2s linear forwards 1.5s;
+.img1 {
+  background-image: linear-gradient(135deg, #adadad 0%, #c3cfe2 100%);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding: 0;
 }
 
 @media only screen and (max-width: 990px) {
@@ -391,6 +354,9 @@ footer h6 {
   }
   img {
     padding-top: 20px;
+  }
+  .img1 {
+    margin-top: 20px;
   }
   .projectSec {
     font-size: 3rem;
