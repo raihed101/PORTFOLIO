@@ -178,6 +178,10 @@ hr {
   outline: 0 none;
 }
 
+button:focus {
+  outline: none;
+}
+
 .btn-primary {
   /* background: ; */
   color: #ffffff;
