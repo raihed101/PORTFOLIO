@@ -261,6 +261,7 @@ footer h6 {
   margin: 0 auto;
   box-shadow: none;
   position: relative;
+  padding-bottom: 20px;
 }
 .progress:after {
   content: "";
@@ -333,7 +334,12 @@ footer h6 {
   background-image: linear-gradient(135deg, #adadad 0%, #c3cfe2 100%);
   background-repeat: no-repeat;
   border-radius: 10px;
-  padding: 0;
+  /* padding: 0; */
+}
+
+.img2 {
+  background-color: #fff;
+  border-radius: 10px;
 }
 
 @media only screen and (max-width: 990px) {
@@ -360,6 +366,9 @@ footer h6 {
     padding-top: 20px;
   }
   .img1 {
+    margin-top: 20px;
+  }
+  .img2 {
     margin-top: 20px;
   }
   .projectSec {
